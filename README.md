@@ -3,12 +3,10 @@
 
 **Background**
 
-**Research Objective(s)
-**
+**Research Objectives**
 1. 
 
-**Resources Used
-**
+**Resources Used**
 1. Git/Github
 2. BIDS
 
@@ -16,8 +14,7 @@
 1. fMRI Preprocessing
 2. Functional Connectivity
 
-**Deliverables
-**
+**Deliverables**
 1.
 
 
