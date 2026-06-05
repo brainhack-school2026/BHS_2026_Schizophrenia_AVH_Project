@@ -49,6 +49,7 @@ apptainer run --cleanenv \
     --output-spaces MNI152NLin2009cAsym:res-2 \
     --fs-license-file /li \
     --ignore slicetiming \
+    --skull-strip-t1w skip \
     --notrack
 
 echo "Done at $(date). Outputs: ${OUTPUT_DIR}"
