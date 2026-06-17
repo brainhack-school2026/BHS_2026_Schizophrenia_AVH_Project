@@ -1,21 +1,21 @@
-# BHS2026_Schizophrenia_AVH_Project
-
 ---
 type: "project" # DON'T TOUCH THIS ! :)
-date: "2026-05-29"
-# Functional Connectivity of the Auditory Cortex in Schizophrenia
-title: Wired for Sound: Functional Connectivity of the Auditory Cortex in Schizophrenia
+date: "2026-05-29" # Date you first upload your project.
+# Title of your project (we like creative title)
+title: "Wired for Sound: Functional Connectivity of the Auditory Cortex in Schizophrenia"
 
 # List the names of the collaborators within the [ ]. If alone, simple put your name within []
-names: [Garene Matossian (1), Anna Petroseniak (2), Hira Zahid (1,3), Yang Jing Zheng (1), Diya Shah (3), Denisa Lazar (1, 3)
-1. University of Toronto; 2. Toronto Metropolitan University; 3. Centre for Addiction and Mental Health]
+names: [Garene Matossian, Anna Petroseniak, Yang Jing Zheng, Hira Zahid, Diya Shah, Denisa Lazar]
 
 # Your project GitHub repository URL
 github_repo: https://github.com/brainhack-school2026/BHS_2026_Schizophrenia_AVH_Project
 
+# If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
+website:
+
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/PSY6983-2021/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [brainhack, dysconnectivity, neuroimaging, schizophrenia, auditory verbal hallucinations]
+tags: [schizophrenia, dysconnectivity, hallucinations, brainhack]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
