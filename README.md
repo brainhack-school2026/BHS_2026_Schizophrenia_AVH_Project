@@ -98,11 +98,14 @@ The complete dataset (OpenNeuro, ds004302) contains 71 participants across three
 
 At the end of this project, we will have:
 1. Reproducible GitHub repository
-2, README file (project report)
+2. README file (project report)
 3. fMRI preprocessing script
 4. Seed-based functional connectivity
 5. Group-level FC script
-6. BrainHack presentation
+6. BrainHack presentations:
+      * [MSC1127_SCZ_Functional_Connectivity_Final_Presentation.pdf](https://github.com/user-attachments/files/29073675/MSC1127_SCZ_Functional_Connectivity_Final_Presentation.pdf)
+      * [MSC1127_Project_Pitch_Functional_Connectivity_SCZ.pdf](https://github.com/user-attachments/files/29073666/MSC1127_Project_Pitch_Functional_Connectivity_SCZ.pdf)
+
 
 ### Repository Contents
 
