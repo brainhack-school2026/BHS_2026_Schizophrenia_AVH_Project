@@ -29,7 +29,7 @@ image: ""
 
 ## Project Definition: Background, Research Question, Project Objectives
 
-### Background
+### Background [add citations]
 
 Schizophrenia is a chronic psychiatric disorder that affects approximately 24 million individuals worldwide and is increasingly regarded as a disorder of brain network dysconnectivity. Rather than reflecting dysfunction within a single brain region, symptoms may emerge from altered communication among distributed neural systems.
 
@@ -90,18 +90,18 @@ For preprocessing, we used fMRIPrep and FreeSurfer, while functional connectivit
 ### Data Characteristics
 
 The complete dataset (OpenNeuro, ds004302) contains 71 participants across three groups. Due to time constraints, analyses were initially conducted on a subset of 27 participants consisting of:
-*9 Healthy Controls
-*9 AVH− Participants
-*9 AVH+ Participants
+* 9 Healthy Controls
+* 9 AVH− Participants
+* 9 AVH+ Participants
 
-### Deliverables
+### Deliverables [update presentation pdfs]
 
 At the end of this project, we will have:
 1. Reproducible GitHub repository
-2. README file (project report)
+2. README file (this project report)
 3. fMRI preprocessing script
-4. Seed-based functional connectivity
-5. Group-level FC script
+4. Seed-based functional connectivity script
+5. Group-level analysis script
 6. BrainHack presentations:
       * [MSC1127_SCZ_Functional_Connectivity_Final_Presentation.pdf](https://github.com/user-attachments/files/29073675/MSC1127_SCZ_Functional_Connectivity_Final_Presentation.pdf)
       * [MSC1127_Project_Pitch_Functional_Connectivity_SCZ.pdf](https://github.com/user-attachments/files/29073666/MSC1127_Project_Pitch_Functional_Connectivity_SCZ.pdf)
@@ -123,7 +123,7 @@ The repository contains:
 
 A complete preprocessing and functional connectivity workflow was successfully implemented using fMRIPrep and Nilearn. Preprocessing was conducted on the SciNet Teach cluster using containerized workflows. Seed-to-voxel connectivity maps were generated using the left auditory cortex as the seed region and subsequently analyzed at the group level.
 
-### Skills We Learned
+### Skills Learned
 
 **Neuroimaging Analysis**
 * BIDS-compliant dataset organization
