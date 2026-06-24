@@ -157,12 +157,12 @@ Several limitations should be noted. The current analysis used a small subset of
 
 ## References
 
-Alderson-Day, B., McCarthy-Jones, S., & Fernyhough, C. (2015). Hearing voices in the resting brain: A review of intrinsic functional connectivity research on auditory verbal hallucinations. Neuroscience & Biobehavioral Reviews, 55, 78–87.
+   Alderson-Day, B., McCarthy-Jones, S., & Fernyhough, C. (2015). Hearing voices in the resting brain: A review of intrinsic functional connectivity research on auditory verbal hallucinations. Neuroscience & Biobehavioral Reviews, 55, 78–87.
    
 Friston, K. J., & Frith, C. D. (1995). Schizophrenia: A disconnection syndrome? Clinical Neuroscience, 3(2), 89–97.
 
-Gavrilescu, M., Rossell, S., Stuart, G. W., Shea, T. L., Innes-Brown, H., Henshall, K., McKay, C., Sergejew, A. A., Copolov, D., & Egan, G. F. (2010). Reduced connectivity of the auditory cortex in patients with auditory hallucinations: A resting state functional magnetic resonance imaging study. Psychological Medicine, 40(7), 1149–1158.
+   Gavrilescu, M., Rossell, S., Stuart, G. W., Shea, T. L., Innes-Brown, H., Henshall, K., McKay, C., Sergejew, A. A., Copolov, D., & Egan, G. F. (2010). Reduced connectivity of the auditory cortex in patients with auditory hallucinations: A resting state functional magnetic resonance imaging study. Psychological Medicine, 40(7), 1149–1158.
      
-Jardri, R., Pouchet, A., Pins, D., & Thomas, P. (2011). Cortical activations during auditory verbal hallucinations in schizophrenia: A coordinate-based meta-analysis. American Journal of Psychiatry, 168(1), 73–81.
+   Jardri, R., Pouchet, A., Pins, D., & Thomas, P. (2011). Cortical activations during auditory verbal hallucinations in schizophrenia: A coordinate-based meta-analysis. American Journal of Psychiatry, 168(1), 73–81.
      
-Shinn, A. K., Baker, J. T., Cohen, B. M., & Öngür, D. (2013). Functional connectivity of left Heschl’s gyrus in vulnerability to auditory hallucinations in schizophrenia. Schizophrenia Research, 143(2–3), 260–268.
+   Shinn, A. K., Baker, J. T., Cohen, B. M., & Öngür, D. (2013). Functional connectivity of left Heschl’s gyrus in vulnerability to auditory hallucinations in schizophrenia. Schizophrenia Research, 143(2–3), 260–268.
