@@ -37,7 +37,7 @@ Auditory verbal hallucinations (AVHs) are among the most common positive symptom
 
 This project utilizes OpenNeuro dataset ds004302 from Soler-Vidal et al. (2022), which includes fMRI data acquired during a speech perception task from healthy controls, schizophrenia patients without auditory verbal hallucinations (AVH−), and schizophrenia patients experiencing auditory verbal hallucinations (AVH+).
 
-**Main Question**
+**Main Question:**
 Do healthy controls, AVH− participants, and AVH+ participants differ in the functional connectivity of the auditory cortex during speech perception?
 
 **Research Objectives**
