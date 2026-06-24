@@ -94,7 +94,7 @@ The complete dataset (OpenNeuro, ds004302) contains 71 participants across three
 * 9 AVH− Participants
 * 9 AVH+ Participants
 
-### Deliverables [update presentation pdfs]
+### Deliverables
 
 At the end of this project, we will have:
 1. Reproducible GitHub repository
