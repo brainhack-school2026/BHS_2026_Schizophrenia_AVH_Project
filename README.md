@@ -144,13 +144,18 @@ Voxel-wise seed-based functional connectivity analyses were performed using Fish
 
 A significant difference in functional connectivity was observed between the HC and AVH+ groups, with 832,821 voxels surviving FDR correction. In contrast, no voxels survived FDR correction for the HC vs. AVH− comparison, the AVH− vs. AVH+ comparison, or the omnibus one-way ANOVA. These findings suggest robust alterations in left Heschl’s gyrus connectivity in patients with auditory verbal hallucinations relative to healthy controls, whereas differences involving the AVH− group were not statistically significant after correction for multiple comparisons. However, because the AVH+ and AVH− groups did not significantly differ after correction, these results should not be interpreted as definitive evidence of hallucination-specific connectivity differences. Instead, they provide preliminary support for further examining whether auditory hallucinations are associated with broader network-level alterations in auditory, language, salience, sensorimotor, and default mode systems.
 
-Several limitations should be noted. The current analysis used a small subset of the full dataset and focused only on the sentences condition. Therefore, the results should be treated as exploratory. The large number of significant voxels in the HC vs. AVH+ contrast also requires follow-up to confirm that the effect reflects meaningful connectivity differences rather than masking, preprocessing, or variance-related issues.
+### Limitations
+
+Several limitations should be noted. The current analysis used a small subset of the full dataset and focused only on the sentences condition. Although the original goal was to preprocess the full dataset and conduct both seed-to-voxel and ROI-based functional connectivity analyses, this was not feasible within the project timeline. A major challenge was that preprocessing had to be repeated after we determined that the OpenNeuro dataset had already undergone skull stripping, requiring the fMRIPrep workflow to be modified and rerun with skull stripping skipped. As a result, the present findings are based on the corrected preprocessing pipeline for the 27-participant subset and should be treated as exploratory. The large number of significant voxels in the HC vs. AVH+ contrast also requires follow-up to confirm that the effect reflects meaningful connectivity differences rather than masking, preprocessing, or variance-related issues.
 
 ## Conclusion: Wrap-Up, Future Directions
 
 ### Future Directions
-1. Complete preprocessing of the full dataset (n = 71)
-2. Perform whole-sample connectivity analyses
+
+Future BrainHack groups could build on this project by extending the corrected preprocessing and seed-based functional connectivity workflow to the full ds004302 dataset. Because the present project established the core pipeline but was limited by preprocessing delays and time constraints, future work can:
+
+1. Complete corrected preprocessing of the full dataset (n = 71)
+2. Perform whole-sample seed-to-voxel and ROI-based connectivity analyses
 3. Investigate connectivity within auditory, language, salience, sensorimotor, and default mode networks
 4. Examine relationships between connectivity patterns and hallucination status
 5. Explore demographic and clinical moderators, including age and sex
