@@ -31,9 +31,9 @@ image: ""
 
 ### Background
 
-Schizophrenia is a chronic psychiatric disorder that affects approximately 24 million individuals worldwide and is increasingly regarded as a disorder of brain network dysconnectivity. Rather than reflecting dysfunction within a single brain region, symptoms may emerge from altered communication among distributed neural systems.
+Schizophrenia is a chronic psychiatric disorder that affects approximately 24 million individuals worldwide and is increasingly regarded as a disorder of brain network dysconnectivity (Friston & Frith, 1995; Alderson-Day et al., 2015). Rather than reflecting dysfunction within a single brain region, symptoms may emerge from altered communication among distributed neural systems.
 
-Auditory verbal hallucinations (AVHs) are among the most common positive symptoms of schizophrenia and affect approximately 60 to 80% of individuals with schizophrenia. Neuroimaging studies suggest that AVHs involve abnormal interactions between auditory processing regions, language networks, and systems involved in self-monitoring and internally generated speech (CITE). In addition, previous work has consistently implicated the left auditory cortex, particularly regions surrounding Heschl's gyrus, in the pathophysiology of hallucinations (Friston & Frith, 1995; Alderson-Day et al., 2015).
+Auditory verbal hallucinations (AVHs) are among the most common positive symptoms of schizophrenia and affect approximately 60 to 80% of individuals with schizophrenia. Neuroimaging studies suggest that AVHs involve abnormal interactions between auditory processing regions, language networks, and systems involved in self-monitoring and internally generated speech (Jardri et al., 2011; Alderson-Day et al., 2015). In addition, previous work has consistently implicated the left auditory cortex, particularly regions surrounding Heschl's gyrus, in the pathophysiology of hallucinations (Gavrilescu et al., 2010; Shinn et al., 2013).
 
 This project utilizes OpenNeuro dataset ds004302 from Soler-Vidal et al. (2022), which includes fMRI data acquired during a speech perception task from healthy controls, schizophrenia patients without auditory verbal hallucinations (AVH−), and schizophrenia patients experiencing auditory verbal hallucinations (AVH+).
 
