@@ -29,11 +29,11 @@ image: ""
 
 ## Project Definition: Background, Research Question, Project Objectives
 
-### Background [add citations]
+### Background
 
 Schizophrenia is a chronic psychiatric disorder that affects approximately 24 million individuals worldwide and is increasingly regarded as a disorder of brain network dysconnectivity. Rather than reflecting dysfunction within a single brain region, symptoms may emerge from altered communication among distributed neural systems.
 
-Auditory verbal hallucinations (AVHs) are among the most common positive symptoms of schizophrenia and affect approximately 60 to 80% of individuals with schizophrenia. Neuroimaging studies suggest that AVHs involve abnormal interactions between auditory processing regions, language networks, and systems involved in self-monitoring and internally generated speech (CITE). In addition, previous work has consistently implicated the left auditory cortex, particularly regions surrounding Heschl's gyrus, in the pathophysiology of hallucinations (CITE).
+Auditory verbal hallucinations (AVHs) are among the most common positive symptoms of schizophrenia and affect approximately 60 to 80% of individuals with schizophrenia. Neuroimaging studies suggest that AVHs involve abnormal interactions between auditory processing regions, language networks, and systems involved in self-monitoring and internally generated speech (CITE). In addition, previous work has consistently implicated the left auditory cortex, particularly regions surrounding Heschl's gyrus, in the pathophysiology of hallucinations (Friston & Frith, 1995; Alderson-Day et al., 2015).
 
 This project utilizes OpenNeuro dataset ds004302 from Soler-Vidal et al. (2022), which includes fMRI data acquired during a speech perception task from healthy controls, schizophrenia patients without auditory verbal hallucinations (AVH−), and schizophrenia patients experiencing auditory verbal hallucinations (AVH+).
 
@@ -138,9 +138,13 @@ A complete preprocessing and functional connectivity workflow was successfully i
 * Git and GitHub version control
 * Python-based neuroimaging analyses
 
-### Preliminary Findings [to be updated]
+### Preliminary Findings
 
-Seed-based connectivity analyses revealed differences in auditory cortex connectivity among healthy controls, AVH− participants, and AVH+ participants. Exploratory group comparisons identified widespread connectivity differences between groups. However, after correction for multiple comparisons, no clusters remained statistically significant, likely reflecting the limited sample size used in this pilot analysis. Nonetheless, these findings demonstrate the feasibility of the workflow and provide a foundation for future analyses using the full dataset.
+Voxel-wise seed-based functional connectivity analyses were performed using Fisher z-transformed correlation maps from the left Heschl’s gyrus seed. Pairwise group comparisons (HC vs. AVH−, HC vs. AVH+, and AVH− vs. AVH+) were conducted using two-sample t-tests, and a one-way ANOVA was used to assess overall group differences. Statistical significance was evaluated using voxel-wise Benjamini–Hochberg false discovery rate (FDR) correction (q = 0.05).
+
+A significant difference in functional connectivity was observed between the HC and AVH+ groups, with 832,821 voxels surviving FDR correction. In contrast, no voxels survived FDR correction for the HC vs. AVH− comparison, the AVH− vs. AVH+ comparison, or the omnibus one-way ANOVA. These findings suggest robust alterations in left Heschl’s gyrus connectivity in patients with auditory verbal hallucinations relative to healthy controls, whereas differences involving the AVH− group were not statistically significant after correction for multiple comparisons. However, because the AVH+ and AVH− groups did not significantly differ after correction, these results should not be interpreted as definitive evidence of hallucination-specific connectivity differences. Instead, they provide preliminary support for further examining whether auditory hallucinations are associated with broader network-level alterations in auditory, language, salience, sensorimotor, and default mode systems.
+
+Several limitations should be noted. The current analysis used a small subset of the full dataset and focused only on the sentences condition. Therefore, the results should be treated as exploratory. The large number of significant voxels in the HC vs. AVH+ contrast also requires follow-up to confirm that the effect reflects meaningful connectivity differences rather than masking, preprocessing, or variance-related issues.
 
 ## Conclusion: Wrap-Up, Future Directions
 
@@ -150,3 +154,15 @@ Seed-based connectivity analyses revealed differences in auditory cortex connect
 3. Investigate connectivity within auditory, language, salience, sensorimotor, and default mode networks
 4. Examine relationships between connectivity patterns and hallucination status
 5. Explore demographic and clinical moderators, including age and sex
+
+## References
+
+    Alderson-Day, B., McCarthy-Jones, S., & Fernyhough, C. (2015). Hearing voices in the resting brain: A review of intrinsic functional connectivity research on auditory verbal hallucinations. Neuroscience & Biobehavioral Reviews, 55, 78–87.
+   
+    Friston, K. J., & Frith, C. D. (1995). Schizophrenia: A disconnection syndrome? Clinical Neuroscience, 3(2), 89–97.
+
+     Gavrilescu, M., Rossell, S., Stuart, G. W., Shea, T. L., Innes-Brown, H., Henshall, K., McKay, C., Sergejew, A. A., Copolov, D., & Egan, G. F. (2010). Reduced connectivity of the auditory cortex in patients with auditory hallucinations: A resting state functional magnetic resonance imaging study. Psychological Medicine, 40(7), 1149–1158.
+     
+     Jardri, R., Pouchet, A., Pins, D., & Thomas, P. (2011). Cortical activations during auditory verbal hallucinations in schizophrenia: A coordinate-based meta-analysis. American Journal of Psychiatry, 168(1), 73–81.
+     
+     Shinn, A. K., Baker, J. T., Cohen, B. M., & Öngür, D. (2013). Functional connectivity of left Heschl’s gyrus in vulnerability to auditory hallucinations in schizophrenia. Schizophrenia Research, 143(2–3), 260–268.
