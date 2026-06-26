@@ -68,7 +68,7 @@ In summary, the dataset was obtained from OpenNeuro and organized according to t
 
 For preprocessing, we used fMRIPrep and FreeSurfer, while functional connectivity analyses were conducted in Python using Nilearn. Throughout the project, we used VS Code, Jupyter Notebooks, and the command line interface for coding and analysis, while GitHub was used for version control and project organization to support reproducibility and collaboration. 
 
-<img width="798" height="425" alt="image" src="https://github.com/user-attachments/assets/42b34bd4-6cc7-4593-83c1-75dda6ff974d" />
+<img width="787" height="414" alt="image" src="https://github.com/user-attachments/assets/58fe111a-f032-40d5-8f1b-7e5391069238" />
 
 **Figure 1.** Pre-processed surface reconstruction for subject #1.
 
@@ -87,7 +87,7 @@ For preprocessing, we used fMRIPrep and FreeSurfer, while functional connectivit
 2. Brain Imaging Data Structure (BIDS)
 3. Git and GitHub
 
-<img width="992" height="503" alt="Screenshot 2026-06-17 at 8 01 10 PM" src="https://github.com/user-attachments/assets/2173bffa-0cd3-4a8b-8792-ed60db32e14a" />
+<img width="1000" height="503" alt="Screenshot 2026-06-17 at 8 01 10 PM" src="https://github.com/user-attachments/assets/2173bffa-0cd3-4a8b-8792-ed60db32e14a" />
 
 **Figure 2.** Tools used for the brainhack project.
 
