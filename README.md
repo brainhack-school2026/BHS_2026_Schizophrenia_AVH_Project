@@ -68,7 +68,9 @@ In summary, the dataset was obtained from OpenNeuro and organized according to t
 
 For preprocessing, we used fMRIPrep and FreeSurfer, while functional connectivity analyses were conducted in Python using Nilearn. Throughout the project, we used VS Code, Jupyter Notebooks, and the command line interface for coding and analysis, while GitHub was used for version control and project organization to support reproducibility and collaboration. 
 
-<img width="1000" height="503" alt="image" src="https://github.com/user-attachments/assets/6019dc31-dc7a-41be-ba21-e8294fd4894a" />
+<p align="center">
+  <img src="[images/brain.png](https://github.com/user-attachments/assets/6019dc31-dc7a-41be-ba21-e8294fd4894a)" width="100%">
+</p>
 
 **Figure 1.** Pre-processed surface reconstruction for subject #1.
 
