@@ -103,9 +103,8 @@ At the end of this project, we will have:
 4. Seed-based functional connectivity script
 5. Group-level analysis script
 6. BrainHack presentations:
-      * [MSC1127_SCZ_Functional_Connectivity_Final_Presentation.pdf](https://github.com/user-attachments/files/29073675/MSC1127_SCZ_Functional_Connectivity_Final_Presentation.pdf)
-      * [MSC1127_Project_Pitch_Functional_Connectivity_SCZ.pdf](https://github.com/user-attachments/files/29073666/MSC1127_Project_Pitch_Functional_Connectivity_SCZ.pdf)
-
+      * [MSC1127_Project_Pitch_Functional_Connectivity_SCZ_final.pdf](https://github.com/user-attachments/files/29363771/MSC1127_Project_Pitch_Functional_Connectivity_SCZ_final.pdf)
+      * [MSC1127_SCZ_Functional_Connectivity_Final_Project.pdf](https://github.com/user-attachments/files/29363773/MSC1127_SCZ_Functional_Connectivity_Final_Project.pdf)
 
 ### Repository Contents
 
@@ -159,6 +158,8 @@ Future BrainHack groups could build on this project by extending the corrected p
 3. Investigate connectivity within auditory, language, salience, sensorimotor, and default mode networks
 4. Examine relationships between connectivity patterns and hallucination status
 5. Explore demographic and clinical moderators, including age and sex
+
+We thank the BrainHack teaching team, the teaching assistants and professor, for their guidance throughout the program!
 
 ## References
 
