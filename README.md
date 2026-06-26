@@ -85,6 +85,8 @@ For preprocessing, we used fMRIPrep and FreeSurfer, while functional connectivit
 
 <img width="992" height="503" alt="Screenshot 2026-06-17 at 8 01 10 PM" src="https://github.com/user-attachments/assets/2173bffa-0cd3-4a8b-8792-ed60db32e14a" />
 
+**Figure 1.** Tools used for the brainhack project.
+
 ## Data
 
 ### Data Characteristics
@@ -141,7 +143,25 @@ A complete preprocessing and functional connectivity workflow was successfully i
 
 Voxel-wise seed-based functional connectivity analyses were performed using Fisher z-transformed correlation maps from the left Heschl’s gyrus seed. Pairwise group comparisons (HC vs. AVH−, HC vs. AVH+, and AVH− vs. AVH+) were conducted using two-sample t-tests, and a one-way ANOVA was used to assess overall group differences. Statistical significance was evaluated using voxel-wise Benjamini–Hochberg false discovery rate (FDR) correction (q = 0.05).
 
-A significant difference in functional connectivity was observed between the HC and AVH+ groups, with 832,821 voxels surviving FDR correction. In contrast, no voxels survived FDR correction for the HC vs. AVH− comparison, the AVH− vs. AVH+ comparison, or the omnibus one-way ANOVA. These findings suggest robust alterations in left Heschl’s gyrus connectivity in patients with auditory verbal hallucinations relative to healthy controls, whereas differences involving the AVH− group were not statistically significant after correction for multiple comparisons. However, because the AVH+ and AVH− groups did not significantly differ after correction, these results should not be interpreted as definitive evidence of hallucination-specific connectivity differences. Instead, they provide preliminary support for further examining whether auditory hallucinations are associated with broader network-level alterations in auditory, language, salience, sensorimotor, and default mode systems.
+<img width="1000" height="400" alt="ANOVA" src="https://github.com/user-attachments/assets/1db11056-806d-4c7a-b903-7b3650248c84" />
+
+**Figure 2.** ANOVA conducted to assess group differences (HC, AVH-, AVH+).
+
+A significant difference in functional connectivity was observed between the HC and AVH+ groups, with 832,821 voxels surviving FDR correction. In contrast, no voxels survived FDR correction for the HC vs. AVH− comparison, the AVH− vs. AVH+ comparison, or the omnibus one-way ANOVA. These findings suggest robust alterations in left Heschl’s gyrus connectivity in patients with auditory verbal hallucinations relative to healthy controls, whereas differences involving the AVH− group were not statistically significant after correction for multiple comparisons. 
+
+<img width="1000" height="400" alt="Control_AVHm" src="https://github.com/user-attachments/assets/522a6401-a8a7-495a-bb40-f601a152fc32" />
+
+**Figure 3.** Functional connectivity analysis between HC and AVH-.
+
+<img width="1000" height="400" alt="Control_AVHp" src="https://github.com/user-attachments/assets/e04d80c7-5587-488d-b3e0-5ae7ce1f0ad0" />
+
+**Figure 4.** Functional connectivity analysis between HC and AVH+.
+
+<img width="1000" height="400" alt="AVHm_AVHp" src="https://github.com/user-attachments/assets/440a8a17-9d7d-4974-9f0c-86364eff9a53" />
+
+**Figure 5.** Functional connectivity analysis between AVH- and AVH+.
+
+However, because the AVH+ and AVH− groups did not significantly differ after correction, these results should not be interpreted as definitive evidence of hallucination-specific connectivity differences. Instead, they provide preliminary support for further examining whether auditory hallucinations are associated with broader network-level alterations in auditory, language, salience, sensorimotor, and default mode systems. 
 
 ### Limitations
 
